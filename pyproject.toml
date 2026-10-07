@@ -1,0 +1,11 @@
+[project]
+name = "lakehouse-big-data-group-assignment"
+version = "0.1.0"
+description = "TPC-H Lakehouse on Databricks: bronze, silver and gold layers for the Procurement profile"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pyspark>=4.2.0",
+]
